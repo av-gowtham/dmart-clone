@@ -1,0 +1,178 @@
+section {
+  width: 100%;
+  padding: 16px 144px 48px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.partner-with-us-heading {
+  width: fit-content;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-bottom: 2px solid #024c27;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 8px 0 16px;
+  padding: 0 0 2px 0;
+}
+
+.tags {
+  padding: 0 0 0 16px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 3px solid rgba(4, 109, 56, 0.44);
+}
+
+.suppliers-tag,
+.landlords-tag {
+  width: 160px;
+  height: 48px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 6px 12px;
+  line-height: 32px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.suppliers-tag {
+  background-color: #046d38;
+}
+
+.landlords-tag {
+  color: black;
+}
+
+.suppliers {
+  padding: 40px 16px 16px;
+}
+
+.suppliers>div {
+  font-size: 14px;
+  letter-spacing: 0.00938em;
+  line-height: 21px;
+  margin: 16px 0 0 0;
+}
+
+.suppliers-paras {
+  margin-top: 0px !important;
+}
+
+.red {
+  color: red;
+  font-weight: 500;
+  margin-top: 8px  !important; 
+}
+
+main {
+  padding: 0 16px 16px;
+  display: flex;
+}
+
+.input,
+.input-1 {
+  position: relative;
+  padding: 8px;
+}
+
+.contact-details-heading {
+  text-decoration: underline;
+  font-size: 20px ;
+  line-height: 30px;
+  padding: 16px 0px 8px 8px;
+}
+
+.input-box,
+.input-box-1 {
+  font-size: 16px;
+  line-height: 19px;
+  width: 576px;
+  height: 56px;
+  padding: 18.5px 14px;
+  border-radius: 5px;
+  border: 1px solid rgb(181, 181, 181);
+}
+
+.input>input:focus,
+.input>select:focus,
+.input-1>input:focus {
+  outline-color: #046d38;
+}
+
+::placeholder {
+  font-size: 16px;
+  letter-spacing: 0.00938em;
+  color: rgb(198, 198, 198);
+  line-height: 27px;
+}
+
+
+.input-title,
+.input-title-1 {
+  font-size: 13px;
+  position: absolute;
+  top: -3px;
+  left: 20px;
+  background-color: white;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+.input-box-1 {
+  width: 284px;
+}
+
+.retailer-details-heading {
+  margin: 0 0 8px 8px;
+}
+
+.retailer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.submit {
+  grid-area: 4/2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit-button {
+  border: none;
+  margin: 30px 10px 40px 0;
+  text-transform: uppercase;
+  font-size: 14p;
+  background-color: #046d38;
+  color: white;
+  height: 36.5px;
+  width: 85.5px;
+  font-weight: 700;
+  border-radius: 5px;
+  line-height: 1.5em;
+  letter-spacing: 0.0099em;
+  box-shadow: 0 5px 4px -5px rgb(0, 0, 0);
+  transition: all .15s;
+  cursor: pointer;
+}
+
+.submit-button:active {
+  background-color: #0b6035;
+  box-shadow: 0 7px 10px -5px rgb(0, 0, 0);
+}
+
+@media (max-width : 1280px) {
+  section {
+    padding: 16px 30px 48px;
+  }
+}
+
+
+
+

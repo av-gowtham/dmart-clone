@@ -1,0 +1,97 @@
+.quick-links {
+  padding: 16px 24px;
+  margin: 0 120px;
+}
+
+@media (max-width : 1280px) {
+  .quick-links {
+    margin: 0 6px;
+  }
+}
+
+.quick-links-header {
+  display: flex;
+  justify-content: center;
+  padding: 8px 0 16px;
+}
+
+h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-bottom: 2px solid #034C27;
+  width: fit-content;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 0 0 2px;
+}
+
+.quick-links-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.quick-links-template {
+  display: flex;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 4px -3px rgba(19, 19, 19, .5),
+              2px 0 3px -3px rgba(19, 19, 19, .5),
+              0 3px 3px -3px rgba(19, 19, 19, .75),
+              -2px 0 3px -3px rgba(19, 19, 19, .5);
+}
+
+.quick-links-image{
+  height: 146px;
+}
+
+.quick-links-image>img {
+  height: 146px;
+  width: 410px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.quick-links-text {
+  padding: 16px;
+  flex: 1;
+}
+
+.quick-links-heading {
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0 0 16px 0;
+}
+
+.quick-links-question {
+  line-height: 24px;
+  margin: 0 0 16px 0;
+}
+
+.quick-links-buttons {
+  display: flex;
+}
+
+.button {
+  background-color: #046D38;
+  color: #ffffff;
+  border: none;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 5px 8px;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.36);
+  margin: 0 16px 0 0;
+  transition: all .15s;
+}
+
+.button:hover {
+  background-color: #044e2a;
+}
+
+
+
+

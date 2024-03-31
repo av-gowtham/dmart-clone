@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 78px;
+  box-shadow: 0 3px 5px rgb(19, 19, 19, .45);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.dmart-logo {
+  margin: 0 24px 0 0;
+  padding: 16px 0;
+}
+
+.header-middle {
+  display: flex;
+  height: 100%;
+}
+
+.about-us {
+  width: 132px;
+}
+
+.categories {
+  width: 148px;
+}
+
+.social-outreach {
+  width: 192px;
+}
+
+.partner-with-us {
+  width: 187px;
+}
+
+.careers {
+  width: 124px;
+}
+
+.feedback {
+  width: 126px;
+}
+
+.about-us:focus,
+.categories:focus,
+.social-outreach:focus,
+.partner-with-us.clicked {
+  background-color: #C8E6C9;
+}
+
+.header-middle>a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 4px;
+  margin: 0 4px 0 0;
+  font-size: 14px;
+  font-weight: 700;
+  transition: all .25s;
+  letter-spacing: .5px;
+}
+
+.header-middle>a:hover {
+  color: #034C27;
+  background-color: #C8E6C9;
+}
+
+.facebook-icon,
+.linkedin-icon {
+  width: 27px;
+  height: 27px;
+  margin: 0px 5px;
+}
+
+.marquee {
+  height: 39px;
+  width: 100%;
+  background-color: #46BC5B;
+  line-height: 23px; 
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.marquee>marquee>p {
+  animation: scrollText 10s linear infinite;
+  margin: 0;
+  padding: 0;
+}
+
+.center-image>img {
+  width: 100%;
+}

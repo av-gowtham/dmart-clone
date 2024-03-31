@@ -1,0 +1,70 @@
+.map {
+  height: 235px;
+  width: 100%;
+  background-image: url(../images/map.jpg);
+  padding: 16px 0 48px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0 16px;
+}
+
+.contact-us {
+  color: white;
+  border-color: white;
+  padding: 0 40px 2px;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.home-icon,
+.phone-icon,
+.mail-icon {
+  height: 30px;
+  width: 30px;
+  fill: white;
+  margin-bottom: 8px;
+}
+
+.contact-us-details {
+  margin: 0px 120px;
+  padding: 0px 24px;
+  display: flex;
+}
+
+@media (max-width : 1280px) {
+  .contact-us-details {
+    margin: 0 6px;
+  }
+}
+
+.contact-us-details div{
+  color: white;
+  line-height: 24px;
+}
+
+.address,
+.phone-number,
+.email {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-number>div,
+.email>a {
+  transition: all .10;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.phone-number>div:hover,
+.email>a:hover {
+  border-bottom: 1px solid white;
+}

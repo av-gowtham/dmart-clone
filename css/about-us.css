@@ -1,0 +1,119 @@
+.bg:nth-child(even){
+  background-color: #dff0d8;
+}
+
+.overview,
+.founder,
+.our-mission,
+.customer-service,
+.our-reach {
+  padding: 16px 144px;
+}
+
+@media (max-width : 1280px) {
+  .overview,
+  .founder,
+  .our-mission,
+  .customer-service,
+  .our-reach {
+    padding: 16px 30px;
+  }
+}
+
+.our-reach {
+  padding-bottom: 48px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.heading>h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 2px solid #034C27;
+  font-size: 18px;
+  line-height: 27px;
+  width: fit-content;
+  margin: 8px 0 16px;
+  padding-bottom: 2px;
+}
+
+.overview-paras>p,
+.founder-paras>p,
+.our-mission-paras>p,
+.customer-service-paras>p {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 16px 0;
+  text-align: justify;
+  letter-spacing: 0.00938em;
+}
+
+.action-care-truth {
+  display: flex;
+  gap: 16px;
+  min-height: 254;
+  margin: 0 0 16px 0;
+}
+
+.action,
+.care,
+.truth {
+  background-color: #ffffff;
+  padding: 8px 24px 24px;
+  flex: 1;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+}
+
+span {
+  color: #046d38;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 27px;
+  border-bottom: 2px solid #034C27;
+  width: fit-content;
+  font-weight: 400;
+  margin: 8px 0 16px;
+  padding-bottom: 2px;
+}
+
+.action>p,
+.care>p,
+.truth>p {
+  line-height: 24px;
+  text-align: justify;
+  margin: 0 0 16px 0;
+}
+
+td,th,table {
+  font-size: 14px;
+  padding: 16px;
+  line-height: 20px;
+  text-align: start;
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+
+td {
+  border-left: none;
+}
+
+th{
+  width: 369px;
+  padding: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  font-size: 16px;
+  text-align: start;
+  border-right: none;
+}
+
+tr:nth-child(odd){
+  background-color: #dff0d8;
+}

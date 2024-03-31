@@ -1,0 +1,190 @@
+body {
+  background-color: #E3E7E9;
+  margin: 0;
+  padding: 0;
+  font-family: "72", Helvetica, Arial, sans-serif;
+}
+
+.header>img {
+  width: 210px;
+  height: 40px;
+  margin: 0 0 10px 16px;
+  object-fit: contain;
+  background-color: white;
+  padding: 5px;
+}
+
+.sign-in {
+  height: 52px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #046d39;
+}
+
+.sign-in>button {
+  font-size: 13px;
+  padding: 7px;
+  background-color: white;
+  color: #005887;
+  border: none;
+}
+
+.sign-in>div {
+  color: black;
+}
+
+.sign-in>select {
+  padding: 7px;
+  font-size: 13px;
+  color: #0000EE;
+  margin-right: 10px;
+}
+
+.career {
+  margin: 45px 30px 30px;
+  padding: 15px 16px;
+  font-size: 13px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+h1 {
+  margin:  0 0 8.84px;
+  font-size: 22.1px;
+}
+
+.search {
+  padding: 10px 10px 15px;
+  background-image: url(../images/career-background.jpg);
+  background-repeat: no-repeat;
+  box-shadow: 1px 0px 1px rgb(19,19, 19);
+}
+
+.career-container {
+  display: grid;
+  grid-template-columns: 1fr 1.8fr;
+}
+
+main>div {
+  padding: 5px 0 10px 0;
+}
+
+main>div:hover {
+  box-shadow: 0 0 5px 2px rgb(4, 50, 130);
+}
+
+h2 {
+  font-size: 14.3px;
+  margin: 0 0 14.3px;
+  font-family: initial;
+  font-weight: 700;
+}
+
+input {
+  border: 1.5px solid rgb(64, 64, 64);
+}
+
+.search img {
+  height: 14px;
+  position: relative;
+  top: 3px;
+}
+
+.keywords {
+  display: flex;
+  justify-content: flex-end;
+  align-items: start;
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  display: flex;
+}
+
+.fields {
+  flex: 1;
+  text-align: end;
+}
+
+.answers {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.question-mark-icon {
+  transform: scale(1.7);
+}
+
+select {
+  width: 170px;
+  border-color: rgb(67, 66, 66);
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+
+td>p {
+  margin: 0;
+  padding: 6px 8px 6px 5px;
+}
+
+span {
+  font-size: 18px;
+  color: #046d39;
+}
+
+.empty {
+  height: 88px;
+}
+
+.empty>div {
+  padding: 19px 5px 5px;
+}
+
+.buttons>button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: 2px solid rgb(25, 25, 25);
+  cursor: pointer;
+}
+
+.clear {
+  background-color: rgb(98, 101, 109);
+  color: #ffffff;
+}
+
+.search-jobs {
+  background-color: #135cc3;
+  color: white;
+}
+
+.about-dmart {
+  padding: 10px 0 15px 15px;
+}
+
+.about-dmart>img {
+  width: 800px;
+  height: 278;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 10.4px;
+  color: #27ae60;
+  line-height: 22px;
+  text-decoration: underline;
+}
+
+.about-dmart p {
+  width: 800px;
+}

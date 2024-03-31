@@ -1,0 +1,60 @@
+.new-stores {
+    padding: 16px 24px;
+    margin: 45px 120px 0;
+}
+
+@media (max-width : 1280px) {
+  .new-stores {
+    margin: 0 6px;
+  }
+}
+
+.new-stores-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.stores {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.stores-template {
+  width: 395px;
+  height: 324px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 4px -3px rgb(19, 19, 19),
+             2px 0 4px -5px rgb(19, 19, 19),
+             0 4px 4px -4px rgb(19, 19, 19),
+             -1px 0 4px -4px rgb(19, 19, 19);
+  transition: all .36s;
+}
+
+.stores-template:hover {
+  box-shadow: 3px 0 10px -5px rgba(19, 19, 19, .5),
+              -3px 0 10px -5px rgba(19, 19, 19, .5),
+              0 3px 10px -5px rgba(19, 19, 19, .5),
+              0 0 20px -5px rgba(19, 19, 19, .25);
+}
+
+.store-name {
+  font-size: 24px;
+  line-height: 32px;
+  padding: 16px 16px 0 16px;
+  margin: 0 0 8.4px;
+}
+
+.store-location {
+  line-height: 24px;
+  padding: 0 16px 16px 16px;
+  margin: 0 0 5.6px;
+}
+
+.store-image>img {
+  height: 222px;
+  width: 100%;
+  object-fit: cover;
+}

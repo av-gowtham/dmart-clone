@@ -1,0 +1,19 @@
+footer {
+  padding: 0 144px;
+  background-color: #384552;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 1280px){
+  footer {
+    padding: 0 30px;
+  }
+}
+
+footer>P {
+  line-height: 20px;
+  font-size: 14px;
+}
+
