@@ -100,6 +100,10 @@ main {
   border: 1px solid rgb(181, 181, 181);
 }
 
+.input>section {
+  background-color: #ffffff;
+}
+
 .input>input:focus,
 .input>select:focus,
 .input-1>input:focus {
