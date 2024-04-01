@@ -1,6 +1,6 @@
 <h1>Disclaimer</h1>
 
-This project is for educational and practice purposes only. It does not represent an official DMart website or any commercial intent. The information and resources used in this project are intended solely for learning and skill development.
+This project is **for educational and practice purposes only**. It does not represent an official DMart website or any commercial intent. The information and resources used in this project are intended solely for learning and skill development.
 
 <h4>The original site for DMart is https://www.dmartindia.com/.</h4>
 
