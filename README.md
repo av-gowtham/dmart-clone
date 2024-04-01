@@ -2,7 +2,7 @@ Disclaimer
 
 This project is for educational and practice purposes only. It does not represent an official DMart website or any commercial intent. The information and resources used in this project are intended solely for learning and skill development.
 
-The original site for DMart is `https://www.dmartindia.com/.`
+The original site for DMart is https://www.dmartindia.com/.
 
 DMart Website
 
@@ -15,6 +15,6 @@ Technologies Used
 Getting Started
 To run the DMart website locally, follow these steps:
 
-    Clone the repository: git clone https://github.com/av-gowtham/dmart.git
-    Navigate to the project directory: cd dmart
-    Open the index.html file in a web browser.
+    Clone the repository: git clone `https://github.com/av-gowtham/dmart.git`
+    Navigate to the project directory: `cd dmart`
+    Open the `index.html` file in a web browser.
