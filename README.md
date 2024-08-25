@@ -6,7 +6,7 @@ This project is **for educational and practice purposes only**. It does not repr
 
 <h2>DMart Website</h2>
 
-DMart is an e-commerce website for a supermarket chain, providing an online platform for customers to browse and purchase various products. This repository contains the source code for the DMart website, which is deployed and accessible at https://av-gowtham.github.io/dmart/.
+DMart is an e-commerce website for a supermarket chain, providing an online platform for customers to browse and purchase various products. This repository contains the source code for the DMart website, which is deployed and accessible at [https://av-gowtham.github.io/dmart-clone/](https://av-gowtham.github.io/dmart-clone/).
 
 <h2>Technologies Used</h2>
 
